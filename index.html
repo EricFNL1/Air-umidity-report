@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Umidade Animado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gráfico de Umidade Animado</h1>
+        <!-- Slider para controlar a porcentagem de umidade -->
+        <input type="range" id="humidityRange" min="0" max="100" value="50">
+        <label for="humidityRange">Umidade: <span id="humidityValue">50</span>%</label>
+        <!-- Canvas para a animação -->
+        <canvas id="rainCanvas"></canvas>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

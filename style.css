@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e0f7fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 50%;
+    max-width: 400px;
+}
+
+canvas {
+    border: 2px solid #007acc;
+    margin-top: 20px;
+}
+
+input[type=range] {
+    width: 100%;
+    margin-top: 20px;
+}
